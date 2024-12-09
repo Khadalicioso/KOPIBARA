@@ -52,7 +52,7 @@ KOPIBARA is a modern web-based coffee ordering system built with ASP.NET Core 8.
 
 1. Clone the repository
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/Khadalicioso/kopibara.git
 ```
 
 2. Navigate to the project directory
