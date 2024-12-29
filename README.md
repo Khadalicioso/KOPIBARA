@@ -1,6 +1,6 @@
-# KOPIBARA ☕
+# KOPIBARA ☕ - IPT102 Project
 
-KOPIBARA is a modern web-based coffee ordering system built with ASP.NET Core 8.0. It provides a seamless experience for customers to browse and order various coffee beverages, with both hot and iced options available.
+KOPIBARA is a modern web-based coffee ordering system developed by the KPL Team as part of the IPT102 - Integrative Programming and Technologies 2 course. Built with ASP.NET Core 8.0, it offers a seamless experience for customers to browse and order a variety of coffee beverages, including both hot and iced options.
 
 <p align="center">
   <img src="Kopibara/wwwroot/images/KOPIBARA.png" alt="KOPIBARA Logo" width="300"/>
@@ -9,14 +9,16 @@ KOPIBARA is a modern web-based coffee ordering system built with ASP.NET Core 8.
 ## Features
 
 - 🔐 **Secure Authentication**
+
   - Google OAuth integration for user authentication
   - Custom admin authentication system
   - Secure cookie-based session management
 
 - ☕ **Comprehensive Beverage Menu**
-  - Wide variety of coffee options
+
+  - Extensive selection of coffee options
   - Hot and iced variations available
-  - Including popular drinks like:
+  - Popular drinks include:
     - Espresso
     - Cappuccino
     - Latte
@@ -27,9 +29,9 @@ KOPIBARA is a modern web-based coffee ordering system built with ASP.NET Core 8.
     - Black Coffee
 
 - 💻 **Modern Web Interface**
-  - Responsive design
+  - Responsive design for all devices
   - User-friendly navigation
-  - Beautiful product imagery
+  - High-quality product imagery
 
 ## Technology Stack
 
@@ -51,29 +53,35 @@ KOPIBARA is a modern web-based coffee ordering system built with ASP.NET Core 8.
 ## Installation
 
 1. Clone the repository
-```bash
-git clone https://github.com/Khadalicioso/kopibara.git
-```
+
+   ```bash
+   git clone https://github.com/Khadalicioso/kopibara.git
+   ```
 
 2. Navigate to the project directory
-```bash
-cd Kopibara
-```
+
+   ```bash
+   cd Kopibara
+   ```
 
 3. Restore dependencies
-```bash
-dotnet restore
-```
 
-4. Update the connection string in `appsettings.json` to point to your SQL Server instance
+   ```bash
+   dotnet restore
+   ```
+
+4. Update the connection string in `appsettings.json` to point to your SQL Server instance.
 
 5. Apply database migrations
-```bash
-dotnet ef database update
-```
+
+   ```bash
+   dotnet ef database update
+   ```
 
 6. Configure Google OAuth
+
    - Add your Google OAuth credentials in `appsettings.json`:
+
    ```json
    {
      "GoogleKeys": {
@@ -84,13 +92,13 @@ dotnet ef database update
    ```
 
 7. Run the application
-```bash
-dotnet run
-```
+   ```bash
+   dotnet run
+   ```
 
 ## Configuration
 
-The application uses various configuration settings in `appsettings.json`:
+The application utilizes various configuration settings in `appsettings.json`:
 
 - Database connection string
 - Google OAuth credentials
@@ -124,6 +132,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Coffee icons and images used in the project
 - ASP.NET Core community
 - All contributors who have helped shape this project
+- Special thanks to:
+  - UI/UX Designers for their creative input
+  - The three developers for their hard work
+  - Project managers for their guidance
+  - Researchers for their valuable insights
+  - Our professor in IPT102 - Integrative Programming and Technologies 2 for her support
 
 ---
 
