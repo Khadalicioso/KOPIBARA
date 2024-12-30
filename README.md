@@ -50,15 +50,6 @@ KOPIBARA is a modern web-based coffee ordering system developed by the KPL Team 
 - Visual Studio 2022 (recommended) or VS Code
 - Google OAuth credentials (for authentication features)
 
-## Configuration
-
-The application utilizes various configuration settings in `appsettings.json`:
-
-- Database connection string
-- Google OAuth credentials
-- Session configuration
-- Authentication settings
-
 ## Project Structure
 
 - 📁 **Controllers/**: MVC Controllers handling request logic
