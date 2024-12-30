@@ -1,4 +1,4 @@
-# KOPIBARA ☕ - IPT102 Project
+# KOPIBARA ☕
 
 KOPIBARA is a modern web-based coffee ordering system developed by the KPL Team as part of the IPT102 - Integrative Programming and Technologies 2 course. Built with ASP.NET Core 8.0, it offers a seamless experience for customers to browse and order a variety of coffee beverages, including both hot and iced options.
 
@@ -66,14 +66,6 @@ The application utilizes various configuration settings in `appsettings.json`:
 - 📁 **Views/**: Razor views for the user interface
 - 📁 **Data/**: Database context and migrations
 - 📁 **wwwroot/**: Static files (images, CSS, JavaScript)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
